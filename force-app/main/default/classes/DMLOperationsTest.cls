@@ -101,7 +101,7 @@ public with sharing class DMLOperationsTest {
 
     @IsTest
     static void testUpdateAccountFields() {
-        // Create an account for the test
+        // q6 Create an account for the test 
         Account acc = new Account(Name = 'Test Account', Industry = 'Technology');
         insert acc;
 
@@ -119,7 +119,7 @@ public with sharing class DMLOperationsTest {
 
     @IsTest
     static void testUpsertOpportunityList() {
-        // Create a test Account first
+        // q7 Create a test Account first
         Account testAcc = new Account(Name = 'Test Account');
         insert testAcc;
 
